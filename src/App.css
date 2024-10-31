@@ -1,0 +1,117 @@
+*{
+    max-width: auto;
+}
+
+body{
+    margin: 0;
+}
+
+/* Header Component */
+nav{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    color: white;
+    padding: 20px;
+}
+
+.page-logo{
+    height: 100%;
+    width: 75px;
+    margin-right: 6px;
+}
+
+.page-name{
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.page-project{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+
+/* Meme Components */
+main{
+    padding: 36px;
+}
+
+.form-label{
+    margin-bottom: 5px;
+}
+
+.text-container{
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap: 17px;
+}
+
+.meme-btn{
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+}
+
+.text-box{
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    height: 35px;
+    width: 100%;
+}
+
+.meme{
+    position: relative;
+    padding-top: 50px;
+}
+
+.meme-image{
+    border-radius: 3px;
+    width: 100%;
+    height: 50%;
+
+}
+
+.memetext{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    text-shadow: 
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom{
+    bottom: 0;
+}
+
+.top{
+    top: 0;
+}
